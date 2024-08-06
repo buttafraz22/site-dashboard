@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react';
 
 // change this for docker setup!!!
 export default defineConfig({
-    base: "/site-dashboard/",
+    base: "/site-dashboard/site/",
     plugins: [react()],
     preview: {
         port: 8080,
